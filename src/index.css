@@ -1,0 +1,72 @@
+:root {
+  font-family: Lora;
+  line-height: 1.5;
+}
+
+/* Header Styles */
+.header-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: top;
+  margin-top: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+header p {
+  margin: 0;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+.contact-link {
+  text-decoration: underline;
+  color: #0066cc;
+  opacity: 1;
+}
+
+.contact-link:hover {
+  color: #004499;
+}
+
+/* Section Styles */
+.section-container {
+  padding: 1rem;
+}
+
+.section-title {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+}
+
+.section-content {
+  font-size: 0.9rem;
+  margin-top: 0;
+  line-height: 1.4;
+  color: #444;
+}
